@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [href=https://github.com/wooopers/Portfolio-index.html/commit/52b367c64d0c2c04cb381d36019c5201257560c8 "main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
