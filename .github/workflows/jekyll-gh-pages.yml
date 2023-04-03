@@ -1,7 +1,6 @@
-Theme: minima
+Theme:  minima
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
-
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -34,8 +33,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          source: ./html.index
+          destination: ./https://github.com/wooopers/Portfolio      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
